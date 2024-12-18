@@ -1,6 +1,6 @@
 
 import './App.css';
-import ReusableForm from './reusableForm/ReusableForm';
+import Grandpa from './components/grandpa/Grandpa';
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
 
 <ReusableForm formTitle="Profile Update" handleSubmit={handleUpdateProfile} submitBtnText="Update"/> */}
 
-<ReusableForm formTitle="SignUp" handleSubmit={handleSignUpSubmit} >
+{/* <ReusableForm formTitle="SignUp" handleSubmit={handleSignUpSubmit} >
   <div>
     <h2>Sign Up</h2>
     <p>Please Sign Up with Proper Info</p>
@@ -36,7 +36,8 @@ function App() {
 <ReusableForm formTitle="Profile Update" handleSubmit={handleUpdateProfile} submitBtnText="Update">
   <h2>Update Profile</h2>
   <p>Please Update your profile</p>
-</ReusableForm>
+</ReusableForm> */}
+<Grandpa></Grandpa>
 
 
 
